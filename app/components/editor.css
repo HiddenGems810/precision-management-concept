@@ -220,3 +220,52 @@
   .editor-canvas,
   .editor-canvas--shifted { margin-left: 0 !important; }
 }
+
+@media screen and (max-width: 900px) {
+  .editor-sidebar {
+    top: auto;
+    bottom: 0;
+    width: 100% !important;
+    height: 50vh;
+    border-right: none;
+    border-top: 1px solid rgba(255,255,255,.12);
+    box-shadow: 0 -4px 24px rgba(0,0,0,.3);
+  }
+  .editor-sidebar--collapsed {
+    height: 48px;
+  }
+  .editor-collapse-tab {
+    top: -36px;
+    right: 16px;
+    left: auto;
+    transform: rotate(-90deg) !important;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .editor-canvas {
+    margin-left: 0 !important;
+    padding-bottom: 50vh; /* space for sidebar */
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pdf-page { zoom: 0.7; }
+}
+
+@media screen and (max-width: 600px) {
+  .pdf-page { zoom: 0.46; }
+  .editor-sidebar { height: 55vh; }
+  .editor-canvas { padding-bottom: 55vh; }
+}
+
+@media screen and (max-width: 400px) {
+  .pdf-page { zoom: 0.39; }
+}
+
+@media screen and (max-width: 350px) {
+  .pdf-page { zoom: 0.34; }
+}
+
