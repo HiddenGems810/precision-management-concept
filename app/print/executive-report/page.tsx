@@ -22,19 +22,39 @@ const FIELDS: TemplateField[] = [
   { key: "MIX_1X1", label: "1x1 Count", placeholder: "72", group: "Unit Mix" },
   { key: "MIX_2X2", label: "2x2 Count", placeholder: "112", group: "Unit Mix" },
   { key: "MIX_3X3", label: "3x3 Count", placeholder: "24", group: "Unit Mix" },
+
+  { key: "PAGE_2_TITLE", label: "Page 2 Title", placeholder: "Financial & Marketing", group: "Metrics Header" },
+  { key: "PAGE_2_DESC", label: "Page 2 Description", placeholder: "Comprehensive breakdown of revenue, delinquency, and marketing initiatives for June 2026.", group: "Metrics Header", type: "textarea" },
+
+  { key: "LEASING_KICKER", label: "Leasing Kicker", placeholder: "Leasing & Marketing", group: "Metrics" },
+  { key: "LEASING_TITLE", label: "Leasing Title", placeholder: "Monthly Inquiries & Goals", group: "Metrics" },
+  { key: "LEASING_TEXT", label: "Leasing Overview", placeholder: "The property had 114 inquiries in June which included online inquiries, phone calls, and walk-ins.\n\nThere were 5 applicants and 2 approvals. There were 0 move ins and 9 move outs. This resulted in the property closing at 54.33% occupancy and 56.25% preleased. Our goal is to reach the property at 90% occupied or higher and decrease delinquency to 5% or less.", group: "Metrics", type: "textarea" },
   
-  { key: "LEASING_TEXT", label: "Leasing & Marketing Overview", placeholder: "The property had 114 inquiries in June which included online inquiries, phone calls, and walk-ins.\n\nThere were 5 applicants and 2 approvals. There were 0 move ins and 9 move outs. This resulted in the property closing at 54.33% occupancy and 56.25% preleased. Our goal is to reach the property at 90% occupied or higher and decrease delinquency to 5% or less.", group: "Metrics", type: "textarea" },
+  { key: "REVENUE_KICKER", label: "Revenue Kicker", placeholder: "Revenue / NOI", group: "Metrics" },
+  { key: "REVENUE_TITLE", label: "Revenue Title", placeholder: "Financial Performance", group: "Metrics" },
+  { key: "REVENUE_TEXT", label: "Revenue Overview", placeholder: "Total revenue was $82,078.38. Total expenses totaled $68,907.76 resulting in a total NOI of $15,746.24. Focus will remain on maximizing rent revenue as well as creating and collecting additional other income, decreasing overall expenses as well as inputting all invoices within the period they are owed.", group: "Metrics", type: "textarea" },
   
-  { key: "REVENUE_TEXT", label: "Revenue & NOI Overview", placeholder: "Total revenue was $82,078.38. Total expenses totaled $68,907.76 resulting in a total NOI of $15,746.24. Focus will remain on maximizing rent revenue as well as creating and collecting additional other income, decreasing overall expenses as well as inputting all invoices within the period they are owed.", group: "Metrics", type: "textarea" },
-  
+  { key: "DELINQUENCY_KICKER", label: "Delinquency Kicker", placeholder: "Delinquency", group: "Metrics" },
+  { key: "DELINQUENCY_TITLE", label: "Delinquency Title", placeholder: "Collection Status", group: "Metrics" },
   { key: "DELINQUENCY_TEXT", label: "Delinquency Overview", placeholder: "Delinquent rent for the month was $40,433.27 in which $30,292.42 was affiliated with evictions/un-collectible.", group: "Metrics", type: "textarea" },
   
+  { key: "MARKETING_KICKER", label: "Marketing Kicker", placeholder: "Marketing Strategy", group: "Metrics" },
+  { key: "MARKETING_TITLE", label: "Marketing Title", placeholder: "Active Campaigns", group: "Metrics" },
   { key: "MARKETING_TEXT", label: "Marketing Strategy", placeholder: "We are advertising the resident referral incentive to current residents. There is also marketing and advertising on Facebook market place and groups. Current special of waive application fee, and $500 off first full month of rent.", group: "Metrics", type: "textarea" },
   
+  { key: "PAGE_3_TITLE", label: "Page 3 Title", placeholder: "Operations & Staffing", group: "Operations Header" },
+  { key: "PAGE_3_DESC", label: "Page 3 Description", placeholder: "Overview of property operations, maintenance requests, capital projects, and team updates.", group: "Operations Header", type: "textarea" },
+
+  { key: "RENEWALS_KICKER", label: "Renewals Kicker", placeholder: "Renewals", group: "Operations" },
+  { key: "RENEWALS_TITLE", label: "Renewals Title", placeholder: "Retention & Leases", group: "Operations" },
   { key: "RENEWALS_TEXT", label: "Renewals Overview", placeholder: "There are 2 month-to-month leases and 0 expiring leases and 5 renewed. All residents with leases expiring thru the next 90 days will receive renewal notices as well as being emailed. We are currently not increasing at renewals. We will renew at the same rate temporarily. Month to month fees have been added to residents accounts.", group: "Operations", type: "textarea" },
   
+  { key: "MAINTENANCE_KICKER", label: "Maintenance Kicker", placeholder: "Maintenance", group: "Operations" },
+  { key: "MAINTENANCE_TITLE", label: "Maintenance Title", placeholder: "Capital Projects", group: "Operations" },
   { key: "MAINTENANCE_TEXT", label: "Maintenance & Capital", placeholder: "Maintenance has completed unit 1804. It is pending flooring bid and clean. AHS has completed unit 1704. They have turned in keys for the remaining units and are pending a walk through.", group: "Operations", type: "textarea" },
   
+  { key: "STAFFING_KICKER", label: "Staffing Kicker", placeholder: "Staffing", group: "Operations" },
+  { key: "STAFFING_TITLE", label: "Staffing Title", placeholder: "Team Updates", group: "Operations" },
   { key: "STAFFING_TEXT", label: "Staffing Overview", placeholder: "The property is currently fully staffed which consists of a full-time senior community manager, community manager, and 2 maintenance technicians.", group: "Operations", type: "textarea" }
 ];
 
@@ -99,36 +119,36 @@ function Page2() {
   const f = useTemplateFields();
   return (
     <section className="pdf-page">
-      <Header label="Executive Report / Financial & Marketing" logoTheme="Dark (for light bg)" />
+      <Header label={`Executive Report / ${f.PAGE_2_TITLE || "Financial & Marketing"}`} logoTheme="Dark (for light bg)" />
       
       <div className="intro">
         <p className="kicker">Month in Review</p>
-        <h1>Financial &amp; Marketing</h1>
-        <p>Comprehensive breakdown of revenue, delinquency, and marketing initiatives for {f.REPORT_MONTH}.</p>
+        <h1>{f.PAGE_2_TITLE}</h1>
+        <p>{f.PAGE_2_DESC}</p>
       </div>
 
       <div className="tk-exec-grid">
         <div className="tk-exec-block">
-          <p className="kicker">Leasing &amp; Marketing</p>
-          <h3>Monthly Inquiries &amp; Goals</h3>
+          <p className="kicker">{f.LEASING_KICKER}</p>
+          <h3>{f.LEASING_TITLE}</h3>
           <p>{f.LEASING_TEXT}</p>
         </div>
         
         <div className="tk-exec-block">
-          <p className="kicker">Revenue / NOI</p>
-          <h3>Financial Performance</h3>
+          <p className="kicker">{f.REVENUE_KICKER}</p>
+          <h3>{f.REVENUE_TITLE}</h3>
           <p>{f.REVENUE_TEXT}</p>
         </div>
 
         <div className="tk-exec-block">
-          <p className="kicker">Delinquency</p>
-          <h3>Collection Status</h3>
+          <p className="kicker">{f.DELINQUENCY_KICKER}</p>
+          <h3>{f.DELINQUENCY_TITLE}</h3>
           <p>{f.DELINQUENCY_TEXT}</p>
         </div>
 
         <div className="tk-exec-block">
-          <p className="kicker">Marketing Strategy</p>
-          <h3>Active Campaigns</h3>
+          <p className="kicker">{f.MARKETING_KICKER}</p>
+          <h3>{f.MARKETING_TITLE}</h3>
           <p>{f.MARKETING_TEXT}</p>
         </div>
       </div>
@@ -142,30 +162,30 @@ function Page3() {
   const f = useTemplateFields();
   return (
     <section className="pdf-page">
-      <Header label="Executive Report / Operations & Staffing" logoTheme="Dark (for light bg)" />
+      <Header label={`Executive Report / ${f.PAGE_3_TITLE || "Operations & Staffing"}`} logoTheme="Dark (for light bg)" />
       
       <div className="intro">
         <p className="kicker">Month in Review</p>
-        <h1>Operations &amp; Staffing</h1>
-        <p>Overview of property operations, maintenance requests, capital projects, and team updates.</p>
+        <h1>{f.PAGE_3_TITLE}</h1>
+        <p>{f.PAGE_3_DESC}</p>
       </div>
 
       <div className="tk-exec-grid" style={{ gridTemplateColumns: "1fr" }}>
         <div className="tk-exec-block">
-          <p className="kicker">Renewals</p>
-          <h3>Retention &amp; Leases</h3>
+          <p className="kicker">{f.RENEWALS_KICKER}</p>
+          <h3>{f.RENEWALS_TITLE}</h3>
           <p>{f.RENEWALS_TEXT}</p>
         </div>
 
         <div className="tk-exec-block">
-          <p className="kicker">Maintenance</p>
-          <h3>Capital Projects</h3>
+          <p className="kicker">{f.MAINTENANCE_KICKER}</p>
+          <h3>{f.MAINTENANCE_TITLE}</h3>
           <p>{f.MAINTENANCE_TEXT}</p>
         </div>
 
         <div className="tk-exec-block">
-          <p className="kicker">Staffing</p>
-          <h3>Team Updates</h3>
+          <p className="kicker">{f.STAFFING_KICKER}</p>
+          <h3>{f.STAFFING_TITLE}</h3>
           <p>{f.STAFFING_TEXT}</p>
         </div>
       </div>
