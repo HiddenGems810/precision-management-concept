@@ -1,0 +1,408 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Precision Management logo The Precision Standard" [ref=e5] [cursor=pointer]:
+          - /url: "#top"
+          - img "Precision Management logo" [ref=e6]
+          - generic [ref=e7]: The Precision Standard
+        - generic [ref=e8]:
+          - link "Asset Library" [ref=e9] [cursor=pointer]:
+            - /url: "#library"
+          - link "Download Toolkit" [ref=e10] [cursor=pointer]:
+            - /url: "#delivery"
+    - generic [ref=e11]:
+      - img "Precision Management portfolio community in Atlanta" [ref=e12]
+      - generic [ref=e15]:
+        - generic [ref=e16]: Independent Concept
+        - heading "The Precision Standard™" [level=1] [ref=e17]
+        - paragraph [ref=e18]: A marketing system concept built to make operational scale visible across owner, resident, print, digital, and web touchpoints.
+        - generic [ref=e20]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+    - generic [ref=e21]:
+      - paragraph [ref=e22]: Executive summary
+      - heading "From research to an operational asset system." [level=2] [ref=e23]
+      - generic [ref=e24]:
+        - article [ref=e25]:
+          - generic [ref=e26]: "01"
+          - heading "What I researched" [level=3] [ref=e27]
+          - paragraph [ref=e28]: Public footprint, verified scale signals, existing positioning, and the owner/resident communication split.
+        - article [ref=e29]:
+          - generic [ref=e30]: "02"
+          - heading "What I identified" [level=3] [ref=e31]
+          - paragraph [ref=e32]: A need to make institutional capability feel consistent at every practical touchpoint.
+        - article [ref=e33]:
+          - generic [ref=e34]: "03"
+          - heading "What I designed" [level=3] [ref=e35]
+          - paragraph [ref=e36]: A reusable visual system for trust-building, service expectations, and qualified owner inquiry.
+        - article [ref=e37]:
+          - generic [ref=e38]: "04"
+          - heading "What this improves" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Clarity, repeatability, credibility, and a stronger bridge from marketing into operations.
+        - article [ref=e41]:
+          - generic [ref=e42]: "05"
+          - heading "Hiring value" [level=3] [ref=e43]
+          - paragraph [ref=e44]: Research discipline, compliance-aware copy, system thinking, and coded execution in one presentation.
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: Operating system / v1
+          - heading "A repeatable path from proof to practice." [level=2] [ref=e50]
+          - paragraph [ref=e51]: "This is the first real execution layer: each asset has an owner, a job, and a place in the communication cycle."
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - generic [ref=e54]: "01"
+            - generic [ref=e55]:
+              - heading "Align the message" [level=3] [ref=e56]
+              - paragraph [ref=e57]: Verified scale, owner needs, and service expectations become one approved source of truth.
+              - paragraph [ref=e58]: Brand guidelines · owner capabilities · message pillars
+          - listitem [ref=e59]:
+            - generic [ref=e60]: "02"
+            - generic [ref=e61]:
+              - heading "Activate demand" [level=3] [ref=e62]
+              - paragraph [ref=e63]: Owner-facing outreach is built from the same proof system across one-sheets, LinkedIn, and email.
+              - paragraph [ref=e64]: One-sheet · campaign post · email header
+          - listitem [ref=e65]:
+            - generic [ref=e66]: "03"
+            - generic [ref=e67]:
+              - heading "Run resident communication" [level=3] [ref=e68]
+              - paragraph [ref=e69]: Operational notices make the next step explicit without introducing Fair Housing risk.
+              - paragraph [ref=e70]: Maintenance notice · service expectations · support path
+          - listitem [ref=e71]:
+            - generic [ref=e72]: "04"
+            - generic [ref=e73]:
+              - heading "Measure and improve" [level=3] [ref=e74]
+              - paragraph [ref=e75]: Teams review the questions owners and residents ask, then refine the system at the source.
+              - paragraph [ref=e76]: Feedback loop · template updates · rollout roadmap
+      - paragraph [ref=e77]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+    - generic [ref=e79]:
+      - paragraph [ref=e80]: Marketing asset library
+      - heading "Not a moodboard. A deployable operating system." [level=2] [ref=e81]
+      - paragraph [ref=e82]: Every preview is rendered from the corresponding downloadable document. What you see is what the team receives.
+      - generic [ref=e83]:
+        - article [ref=e84]:
+          - img "Rendered first page of Brand Guidelines Preview" [ref=e85]
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - heading "Brand Guidelines Preview" [level=3] [ref=e88]
+              - generic [ref=e89]: PDF
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - term [ref=e92]: Audience
+                - definition [ref=e93]: Internal teams
+              - generic [ref=e94]:
+                - term [ref=e95]: Purpose
+                - definition [ref=e96]: Keep the system consistent
+              - generic [ref=e97]:
+                - term [ref=e98]: Business use case
+                - definition [ref=e99]: A shared visual reference
+            - link "Download exact PDF" [ref=e100] [cursor=pointer]:
+              - /url: /assets/exports/brand-guidelines/precision-brand-guidelines-preview.pdf
+            - paragraph [ref=e101]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+        - article [ref=e102]:
+          - img "Rendered first page of Owner Acquisition One-Sheet" [ref=e103]
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - heading "Owner Acquisition One-Sheet" [level=3] [ref=e106]
+              - generic [ref=e107]: PDF
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - term [ref=e110]: Audience
+                - definition [ref=e111]: Property owners
+              - generic [ref=e112]:
+                - term [ref=e113]: Purpose
+                - definition [ref=e114]: Introduce the operating proposition
+              - generic [ref=e115]:
+                - term [ref=e116]: Business use case
+                - definition [ref=e117]: Owner outreach and meetings
+            - link "Download exact PDF" [ref=e118] [cursor=pointer]:
+              - /url: /assets/exports/owner-acquisition/owner-acquisition-one-sheet.pdf
+            - paragraph [ref=e119]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+        - article [ref=e120]:
+          - img "Rendered first page of Resident Communication Notice" [ref=e121]
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - heading "Resident Communication Notice" [level=3] [ref=e124]
+              - generic [ref=e125]: PDF
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - term [ref=e128]: Audience
+                - definition [ref=e129]: Residents
+              - generic [ref=e130]:
+                - term [ref=e131]: Purpose
+                - definition [ref=e132]: Set clear service expectations
+              - generic [ref=e133]:
+                - term [ref=e134]: Business use case
+                - definition [ref=e135]: Maintenance and operations updates
+            - link "Download exact PDF" [ref=e136] [cursor=pointer]:
+              - /url: /assets/exports/resident-communication/resident-maintenance-notice.pdf
+            - paragraph [ref=e137]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+        - article [ref=e138]:
+          - img "Rendered first page of Corporate Business Card" [ref=e139]
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - heading "Corporate Business Card" [level=3] [ref=e142]
+              - generic [ref=e143]: Print preview
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - term [ref=e146]: Audience
+                - definition [ref=e147]: Prospects and partners
+              - generic [ref=e148]:
+                - term [ref=e149]: Purpose
+                - definition [ref=e150]: Make contact details tangible
+              - generic [ref=e151]:
+                - term [ref=e152]: Business use case
+                - definition [ref=e153]: In-person conversations
+            - link "Download exact PDF" [ref=e154] [cursor=pointer]:
+              - /url: /assets/exports/print-collateral/print-collateral-preview.pdf
+            - paragraph [ref=e155]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+        - article [ref=e156]:
+          - img "Rendered first page of Corporate Letterhead" [ref=e157]
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - heading "Corporate Letterhead" [level=3] [ref=e160]
+              - generic [ref=e161]: Print preview
+            - generic [ref=e162]:
+              - generic [ref=e163]:
+                - term [ref=e164]: Audience
+                - definition [ref=e165]: Owners and partners
+              - generic [ref=e166]:
+                - term [ref=e167]: Purpose
+                - definition [ref=e168]: Give formal correspondence structure
+              - generic [ref=e169]:
+                - term [ref=e170]: Business use case
+                - definition [ref=e171]: Reports, letters, and proposals
+            - link "Download exact PDF" [ref=e172] [cursor=pointer]:
+              - /url: /assets/exports/print-collateral/print-collateral-preview.pdf
+            - paragraph [ref=e173]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+        - article [ref=e174]:
+          - img "Rendered first page of LinkedIn Owner Campaign" [ref=e175]
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - heading "LinkedIn Owner Campaign" [level=3] [ref=e178]
+              - generic [ref=e179]: WebP
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - term [ref=e182]: Audience
+                - definition [ref=e183]: Property owners
+              - generic [ref=e184]:
+                - term [ref=e185]: Purpose
+                - definition [ref=e186]: Lead with verified scale
+              - generic [ref=e187]:
+                - term [ref=e188]: Business use case
+                - definition [ref=e189]: Corporate announcement
+            - link "Download exact PDF" [ref=e190] [cursor=pointer]:
+              - /url: /assets/exports/previews/linkedin-post-preview.webp
+            - paragraph [ref=e191]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+        - article [ref=e192]:
+          - img "Rendered first page of Owner Email Header" [ref=e193]
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - heading "Owner Email Header" [level=3] [ref=e196]
+              - generic [ref=e197]: WebP
+            - generic [ref=e198]:
+              - generic [ref=e199]:
+                - term [ref=e200]: Audience
+                - definition [ref=e201]: Property owners
+              - generic [ref=e202]:
+                - term [ref=e203]: Purpose
+                - definition [ref=e204]: Make campaign email recognizable
+              - generic [ref=e205]:
+                - term [ref=e206]: Business use case
+                - definition [ref=e207]: Newsletter and outreach
+            - link "Download exact PDF" [ref=e208] [cursor=pointer]:
+              - /url: /assets/exports/previews/email-header-preview.webp
+            - paragraph [ref=e209]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+        - article [ref=e210]:
+          - img "Rendered first page of Website Hero Concept" [ref=e211]
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - heading "Website Hero Concept" [level=3] [ref=e214]
+              - generic [ref=e215]: PDF
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - term [ref=e218]: Audience
+                - definition [ref=e219]: Owners and residents
+              - generic [ref=e220]:
+                - term [ref=e221]: Purpose
+                - definition [ref=e222]: Clarify the primary paths
+              - generic [ref=e223]:
+                - term [ref=e224]: Business use case
+                - definition [ref=e225]: Homepage redesign
+            - link "Download exact PDF" [ref=e226] [cursor=pointer]:
+              - /url: /assets/exports/website-ui/website-ui-concept.pdf
+            - paragraph [ref=e227]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+        - article [ref=e228]:
+          - img "Rendered first page of Mobile UI Concept" [ref=e229]
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - heading "Mobile UI Concept" [level=3] [ref=e232]
+              - generic [ref=e233]: PDF
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - term [ref=e236]: Audience
+                - definition [ref=e237]: Owners and residents
+              - generic [ref=e238]:
+                - term [ref=e239]: Purpose
+                - definition [ref=e240]: Keep the next step legible on small screens
+              - generic [ref=e241]:
+                - term [ref=e242]: Business use case
+                - definition [ref=e243]: Mobile homepage
+            - link "Download exact PDF" [ref=e244] [cursor=pointer]:
+              - /url: /assets/exports/website-ui/website-ui-concept.pdf
+            - paragraph [ref=e245]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+    - generic [ref=e247]:
+      - generic [ref=e248]:
+        - paragraph [ref=e249]: Brand + print collateral
+        - heading "A system that looks composed on paper." [level=2] [ref=e250]
+        - paragraph [ref=e251]: The official Precision Management mark, proper SF Pro typography, and a measured navy/gold system make correspondence feel as disciplined as the operating model behind it.
+        - link "Download brand guidelines" [ref=e252] [cursor=pointer]:
+          - /url: /assets/exports/brand-guidelines/precision-brand-guidelines-preview.pdf
+        - paragraph [ref=e253]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - generic [ref=e257]:
+            - img "Precision Management logo" [ref=e258]
+            - generic [ref=e259]:
+              - paragraph [ref=e260]: Precision Management
+              - paragraph [ref=e261]: Lead with Passion. Serve with Precision.
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - paragraph [ref=e264]: Print collateral
+              - heading "Lead with Passion." [level=4] [ref=e265]
+              - paragraph [ref=e266]: Serve with Precision.
+              - generic [ref=e267]: PRECISIONMNGMT.COM
+            - paragraph [ref=e269]: Professionallymanaged.
+          - paragraph [ref=e270]: Independent concept by Ger'Quia Abner
+        - generic [ref=e271]:
+          - generic [ref=e273]:
+            - img "Precision Management logo" [ref=e274]
+            - generic [ref=e275]:
+              - paragraph [ref=e276]: Precision Management
+              - paragraph [ref=e277]: Lead with Passion. Serve with Precision.
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - paragraph [ref=e280]: Corporate correspondence
+              - heading "Precision Management" [level=4] [ref=e281]
+              - paragraph [ref=e282]: Professional property management services
+              - generic [ref=e283]: CONTACT US
+            - paragraph [ref=e285]: Professionallymanaged.
+          - paragraph [ref=e286]: Independent concept by Ger'Quia Abner
+    - generic [ref=e288]:
+      - generic [ref=e289]:
+        - paragraph [ref=e290]: Owner acquisition
+        - heading "Trust signals with no invented outcomes." [level=2] [ref=e291]
+        - paragraph [ref=e292]: "The campaign uses only verified public signals: 80+ properties, 11,000+ units, 20+ years, and multifamily expertise across conventional, student, and affordable housing."
+        - link "Download owner one-sheet" [ref=e293] [cursor=pointer]:
+          - /url: /assets/exports/owner-acquisition/owner-acquisition-one-sheet.pdf
+      - generic [ref=e295]:
+        - generic [ref=e297]:
+          - img "Precision Management logo" [ref=e298]
+          - generic [ref=e299]:
+            - paragraph [ref=e300]: Precision Management
+            - paragraph [ref=e301]: Lead with Passion. Serve with Precision.
+        - generic [ref=e302]:
+          - generic [ref=e303]:
+            - paragraph [ref=e304]: Owner one-sheet
+            - heading "Comprehensive Management, From Strategy to Service." [level=4] [ref=e305]
+            - paragraph [ref=e306]: 80+ properties · 11,000+ units · 20+ years
+            - generic [ref=e307]: WORK WITH US
+          - generic [ref=e308]:
+            - img "Precision Management portfolio community" [ref=e309]
+            - paragraph [ref=e310]: Professionallymanaged.
+        - paragraph [ref=e311]: Independent concept by Ger'Quia Abner
+    - generic [ref=e313]:
+      - generic [ref=e315]:
+        - generic [ref=e317]:
+          - img "Precision Management logo" [ref=e318]
+          - generic [ref=e319]:
+            - paragraph [ref=e320]: Precision Management
+            - paragraph [ref=e321]: Lead with Passion. Serve with Precision.
+        - generic [ref=e322]:
+          - generic [ref=e323]:
+            - paragraph [ref=e324]: Resident communication
+            - heading "Maintenance update" [level=4] [ref=e325]
+            - paragraph [ref=e326]: Clear communication. Responsive support. Simple next steps.
+            - generic [ref=e327]: RESIDENT SUPPORT
+          - paragraph [ref=e329]: Professionallymanaged.
+        - paragraph [ref=e330]: Independent concept by Ger'Quia Abner
+      - generic [ref=e331]:
+        - paragraph [ref=e332]: Resident communication
+        - heading "Clear next steps, professionally managed." [level=2] [ref=e333]
+        - paragraph [ref=e334]: The notice leads with resident support, a responsive maintenance process, service expectations, and clear communication - never lifestyle targeting.
+        - link "Download resident template" [ref=e335] [cursor=pointer]:
+          - /url: /assets/exports/resident-communication/resident-maintenance-notice.pdf
+        - paragraph [ref=e336]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+    - generic [ref=e338]:
+      - paragraph [ref=e339]: Website/UI concept
+      - heading "A homepage with two clear paths." [level=2] [ref=e340]
+      - generic [ref=e346]:
+        - generic [ref=e348]:
+          - img "Precision Management logo" [ref=e349]
+          - generic [ref=e350]:
+            - paragraph [ref=e351]: Precision Management
+            - paragraph [ref=e352]: Lead with Passion. Serve with Precision.
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - paragraph [ref=e355]: Website concept
+            - heading "Comprehensive management, from strategy to service." [level=4] [ref=e356]
+            - paragraph [ref=e357]: "Owners: explore our capabilities. Residents: find support."
+            - generic [ref=e358]: WORK WITH US
+          - generic [ref=e359]:
+            - img "Precision Management portfolio community" [ref=e360]
+            - paragraph [ref=e361]: Professionallymanaged.
+        - paragraph [ref=e362]: Independent concept by Ger'Quia Abner
+      - generic [ref=e363]:
+        - link "Download website concept" [ref=e364] [cursor=pointer]:
+          - /url: /assets/exports/website-ui/website-ui-concept.pdf
+        - generic [ref=e366]:
+          - generic [ref=e368]:
+            - img "Precision Management logo" [ref=e369]
+            - generic [ref=e370]:
+              - paragraph [ref=e371]: Precision Management
+              - paragraph [ref=e372]: Lead with Passion. Serve with Precision.
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - paragraph [ref=e375]: Website concept
+              - heading "Comprehensive management, from strategy to service." [level=4] [ref=e376]
+              - paragraph [ref=e377]: "Owners: explore our capabilities. Residents: find support."
+              - generic [ref=e378]: WORK WITH US
+            - generic [ref=e379]:
+              - img "Precision Management portfolio community" [ref=e380]
+              - paragraph [ref=e381]: Professionallymanaged.
+          - paragraph [ref=e382]: Independent concept by Ger'Quia Abner
+      - paragraph [ref=e383]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+    - generic [ref=e384]:
+      - paragraph [ref=e385]: Final delivery package
+      - heading "What Precision Management would receive." [level=2] [ref=e386]
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - generic [ref=e389]: "01"
+          - heading "Brand System" [level=3] [ref=e390]
+        - generic [ref=e391]:
+          - generic [ref=e392]: "02"
+          - heading "Owner Acquisition" [level=3] [ref=e393]
+        - generic [ref=e394]:
+          - generic [ref=e395]: "03"
+          - heading "Resident Communication" [level=3] [ref=e396]
+        - generic [ref=e397]:
+          - generic [ref=e398]: "04"
+          - heading "Print Collateral" [level=3] [ref=e399]
+        - generic [ref=e400]:
+          - generic [ref=e401]: "05"
+          - heading "Digital Marketing" [level=3] [ref=e402]
+        - generic [ref=e403]:
+          - generic [ref=e404]: "06"
+          - heading "Website/UI Concepts" [level=3] [ref=e405]
+        - generic [ref=e406]:
+          - generic [ref=e407]: "07"
+          - heading "Implementation Roadmap" [level=3] [ref=e408]
+      - link "Download toolkit starting point" [ref=e409] [cursor=pointer]:
+        - /url: /assets/exports/brand-guidelines/precision-brand-guidelines-preview.pdf
+    - generic [ref=e411]:
+      - paragraph [ref=e412]: Next conversation
+      - heading "Built as Proof. Ready to Discuss." [level=2] [ref=e413]
+      - paragraph [ref=e414]: I created this independent concept to demonstrate how I think, design, and build marketing systems under real-world constraints.
+      - link "Contact Ger'Quia Abner" [ref=e415] [cursor=pointer]:
+        - /url: mailto:gerquia@example.com
+      - paragraph [ref=e416]: Independent Concept - created by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+  - button "Open Next.js Dev Tools" [ref=e422] [cursor=pointer]

@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - main "Editable Precision Management template" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "Precision Management" [ref=e5]
+        - generic [ref=e6]: PRECISION MANAGEMENT
+        - generic [ref=e7]: Website/UI concept
+      - generic [ref=e13]:
+        - img "Precision Management property" [ref=e14]
+        - generic [ref=e15]:
+          - img "Precision Management" [ref=e16]
+          - paragraph [ref=e17]: Professional property management
+          - heading "Lead with Passion. Serve with Precision." [level=1] [ref=e18]: Lead with Passion.Serve with Precision.
+          - paragraph [ref=e19]: Comprehensive management, from strategy to service.
+          - generic [ref=e20]:
+            - generic [ref=e21]: WORK WITH US
+            - generic [ref=e22]: RESIDENT SUPPORT
+      - generic [ref=e23]: Independent concept by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - img "Precision Management" [ref=e26]
+        - generic [ref=e27]: PRECISION MANAGEMENT
+        - generic [ref=e28]: Website/UI / information architecture
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: Decision paths
+        - heading "Make the next step obvious." [level=1] [ref=e31]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - text: "01"
+          - heading "Owners" [level=3] [ref=e34]
+          - paragraph [ref=e35]: Capabilities, portfolio context, compliance confidence, assessment request.
+        - generic [ref=e36]:
+          - text: "02"
+          - heading "Residents" [level=3] [ref=e37]
+          - paragraph [ref=e38]: Support channels, clear communications, service information.
+        - generic [ref=e39]:
+          - text: "03"
+          - heading "Partners" [level=3] [ref=e40]
+          - paragraph [ref=e41]: Vendor requirements, registration, working relationship.
+      - generic [ref=e42]:
+        - img "Precision Management property" [ref=e43]
+        - generic [ref=e44]:
+          - paragraph [ref=e45]: Design principle
+          - heading "Let evidence carry the pitch." [level=2] [ref=e46]
+          - paragraph [ref=e47]: Show the actual portfolio environment, official identity, and clear service paths before introducing decorative UI.
+      - generic [ref=e48]: Independent concept by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+  - button "Open Next.js Dev Tools" [ref=e54] [cursor=pointer]

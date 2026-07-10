@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - main "Editable Precision Management template" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "Precision Management" [ref=e5]
+        - generic [ref=e6]: PRECISION MANAGEMENT
+        - generic [ref=e7]: Resident communication template
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: Property update
+        - heading "Maintenance update" [level=1] [ref=e10]
+        - paragraph [ref=e11]: Prepared for clear communication, resident support, and a responsive maintenance process.
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: "Subject: [Service update / scheduled maintenance]"
+        - paragraph [ref=e14]: Dear Resident,
+        - paragraph [ref=e15]: We are writing to share an update regarding [service area or maintenance activity]. Our team is working to keep you informed and to make the next step straightforward.
+        - paragraph [ref=e16]: What to expect
+        - list [ref=e17]:
+          - listitem [ref=e18]: "[Date and anticipated time window]"
+          - listitem [ref=e19]: "[Access, parking, or preparation instruction if applicable]"
+          - listitem [ref=e20]: "[How to request support or report an issue]"
+        - paragraph [ref=e21]: If you have a question, please contact your property team through the designated resident channel. Thank you for your patience and cooperation.
+        - paragraph [ref=e22]: Sincerely,Precision Management
+      - generic [ref=e23]:
+        - generic [ref=e24]: Resident support
+        - generic [ref=e25]: Clear communication · Service expectations · Simple next steps
+      - generic [ref=e26]: Independent concept by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+  - button "Open Next.js Dev Tools" [ref=e32] [cursor=pointer]

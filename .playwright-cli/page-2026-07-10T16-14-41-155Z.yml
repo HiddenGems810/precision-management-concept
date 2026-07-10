@@ -1,0 +1,38 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - img "Precision Management" [ref=f1e5]
+        - generic [ref=f1e6]: PRECISION MANAGEMENT
+        - generic [ref=f1e7]: Owner acquisition one-sheet
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - paragraph [ref=f1e10]: Property management partner
+          - heading "Comprehensive management, from strategy to service." [level=1] [ref=f1e11]
+          - paragraph [ref=f1e12]: Precision Management brings hands-on management, scalable systems, and a personalized approach to multifamily real estate.
+          - generic [ref=f1e13]:
+            - generic [ref=f1e14]:
+              - strong [ref=f1e15]: 80+
+              - text: Properties managed
+            - generic [ref=f1e16]:
+              - strong [ref=f1e17]: 11,000+
+              - text: Units
+            - generic [ref=f1e18]:
+              - strong [ref=f1e19]: 20+
+              - text: Years experience
+        - img "Precision Management portfolio community" [ref=f1e20]
+      - generic [ref=f1e21]:
+        - generic [ref=f1e22]:
+          - paragraph [ref=f1e23]: Portfolio
+          - heading "Built for multifamily." [level=3] [ref=f1e24]
+          - paragraph [ref=f1e25]: Conventional, student, and affordable housing across multiple states.
+        - generic [ref=f1e26]:
+          - paragraph [ref=f1e27]: Compliance
+          - heading "Confidence in complexity." [level=3] [ref=f1e28]
+          - paragraph [ref=f1e29]: HUD 50059, LIHTC, and HOME program expertise.
+        - generic [ref=f1e30]:
+          - paragraph [ref=f1e31]: Start here
+          - heading "Assess. Plan. Onboard." [level=3] [ref=f1e32]
+          - paragraph [ref=f1e33]: Begin with an assessment, receive a tailored proposal, then transition with dedicated support.
+      - generic [ref=f1e34]: Independent concept by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+  - button "Open Next.js Dev Tools" [ref=f1e40] [cursor=pointer]

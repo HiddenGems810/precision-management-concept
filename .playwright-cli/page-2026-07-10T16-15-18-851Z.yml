@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - img "Precision Management portfolio community" [ref=e4]
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Precision Management" [ref=e8]
+          - generic [ref=e9]: PRECISION MANAGEMENT
+          - generic [ref=e10]: Brand system / independent concept
+        - generic [ref=e11]:
+          - paragraph [ref=e12]: Lead with Passion. Serve with Precision.
+          - heading "The Precision Management brand system" [level=1] [ref=e13]
+          - paragraph [ref=e14]: A disciplined identity designed to make a multifamily operator's scale, care, and compliance expertise visible at every touchpoint.
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - strong [ref=e17]: 80+
+            - text: Properties managed
+          - generic [ref=e18]:
+            - strong [ref=e19]: 11,000+
+            - text: Units
+          - generic [ref=e20]:
+            - strong [ref=e21]: 20+
+            - text: Years experience
+        - generic [ref=e22]: Independent concept by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img "Precision Management" [ref=e25]
+        - generic [ref=e26]: PRECISION MANAGEMENT
+        - generic [ref=e27]: Brand guidelines
+      - generic [ref=e28]:
+        - paragraph [ref=e29]: System reference
+        - heading "Identity with operational discipline." [level=1] [ref=e30]
+        - paragraph [ref=e31]: "Precision Management's visual system should feel like the organization behind it: experienced, hands-on, accountable, and built to scale."
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - img "Official Precision Management logo" [ref=e34]
+          - paragraph [ref=e35]: Official logo supplied from precisionmngmt.com. Keep clear space equal to the mark's outer ring.
+        - generic [ref=e36]:
+          - paragraph [ref=e37]: Typography
+          - heading "SF Pro Display" [level=2] [ref=e38]
+          - paragraph [ref=e39]: Regular for reading. Medium for interface labels. Bold for the few messages that need authority.
+          - generic [ref=e40]: Precision is visible.
+      - generic [ref=e41]: Independent concept by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - img "Precision Management" [ref=e44]
+        - generic [ref=e45]: PRECISION MANAGEMENT
+        - generic [ref=e46]: Brand guidelines / application
+      - generic [ref=e47]:
+        - paragraph [ref=e48]: Color roles
+        - heading "Use color to organize, not decorate." [level=1] [ref=e49]
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e53]: Precision Navy
+          - generic [ref=e54]: "#1C2C44"
+        - generic [ref=e55]:
+          - generic [ref=e57]: Managed Teal
+          - generic [ref=e58]: "#3D8C8F"
+        - generic [ref=e59]:
+          - generic [ref=e61]: Maintenance Gold
+          - generic [ref=e62]: "#D6B055"
+        - generic [ref=e63]:
+          - generic [ref=e65]: Paper White
+          - generic [ref=e66]: "#FFFFFF"
+      - generic [ref=e67]:
+        - img "Precision Management property" [ref=e68]
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: Image direction
+          - heading "Use real properties as proof." [level=2] [ref=e71]
+          - paragraph [ref=e72]: Property imagery should establish the environment. The message and next step remain legible, specific, and supported by the official mark.
+      - generic [ref=e73]: Independent concept by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+  - button "Open Next.js Dev Tools" [ref=e79] [cursor=pointer]

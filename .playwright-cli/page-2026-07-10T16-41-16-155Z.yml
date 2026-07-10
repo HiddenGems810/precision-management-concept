@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - main "Editable Precision Management template" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "Precision Management" [ref=e5]
+        - generic [ref=e6]: PRECISION MANAGEMENT
+        - generic [ref=e7]: Owner acquisition one-sheet
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - paragraph [ref=e10]: Property management partner
+          - heading "Comprehensive management, from strategy to service." [level=1] [ref=e11]
+          - paragraph [ref=e12]: Precision Management brings hands-on management, scalable systems, and a personalized approach to multifamily real estate.
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - strong [ref=e15]: 80+
+              - text: Properties managed
+            - generic [ref=e16]:
+              - strong [ref=e17]: 11,000+
+              - text: Units
+            - generic [ref=e18]:
+              - strong [ref=e19]: 20+
+              - text: Years experience
+        - img "Precision Management portfolio community" [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: Portfolio
+          - heading "Built for multifamily." [level=3] [ref=e24]
+          - paragraph [ref=e25]: Conventional, student, and affordable housing across multiple states.
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: Compliance
+          - heading "Confidence in complexity." [level=3] [ref=e28]
+          - paragraph [ref=e29]: HUD 50059, LIHTC, and HOME program expertise.
+        - generic [ref=e30]:
+          - paragraph [ref=e31]: Start here
+          - heading "Assess. Plan. Onboard." [level=3] [ref=e32]
+          - paragraph [ref=e33]: Begin with an assessment, receive a tailored proposal, then transition with dedicated support.
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - paragraph [ref=e36]: Start a conversation
+          - heading "Request a management assessment." [level=2] [ref=e37]
+        - generic [ref=e38]:
+          - generic [ref=e39]: precisionmngmt.com
+          - generic [ref=e40]: contact@precisionmngmt.com · 1-732-627-1410
+      - generic [ref=e41]: Independent concept by Ger'Quia Abner. Not commissioned by, affiliated with, or endorsed by Precision Management.
+  - button "Open Next.js Dev Tools" [ref=e47] [cursor=pointer]

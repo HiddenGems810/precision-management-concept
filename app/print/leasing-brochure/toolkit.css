@@ -1,0 +1,193 @@
+/* Toolkit CSS — Phase 2C
+ * Shared styles for all property-level template print routes
+ * Imports must go in each page.tsx: import "./toolkit.css";
+ * Requires: print.css base styles already loaded
+ */
+
+/* ── Property Flyer ─────────────────────────────────────── */
+.tk-flyer-hero {
+  position: relative;
+  margin-top: .55in;
+  padding: .35in .4in;
+  background: #1c2c44;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  gap: .35in;
+  min-height: 2.1in;
+}
+.tk-flyer-badge {
+  position: absolute;
+  top: .22in; right: .25in;
+  background: #d6b055;
+  color: #1c2c44;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  padding: .07in .12in;
+}
+.tk-flyer-headline .kicker { color: #d6b055; }
+.tk-flyer-headline h1 { color: #fff; font-size: 28px; margin: .12in 0; }
+.tk-flyer-stats { display: flex; gap: .3in; margin-top: .2in; border-top: 1px solid rgba(255,255,255,.3); padding-top: .18in; }
+.tk-flyer-stats > div { display: flex; flex-direction: column; }
+.tk-flyer-stats strong { font-size: 16px; color: #d6b055; }
+.tk-flyer-stats span { font-size: 7px; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.7); margin-top: 2px; }
+
+.tk-flyer-body { display: grid; grid-template-columns: 1.1fr .9fr; gap: .35in; margin-top: .35in; }
+.tk-flyer-features .kicker { margin-bottom: .12in; }
+.tk-flyer-features ul { padding-left: .16in; font-size: 11px; line-height: 1.6; color: #2c4263; }
+.tk-flyer-features li { margin-bottom: .06in; }
+.tk-flyer-features li em { color: #3d8c8f; font-style: normal; }
+
+.tk-flyer-contact .kicker { margin-bottom: .14in; }
+.tk-contact-row { display: flex; justify-content: space-between; font-size: 9px; border-bottom: 1px solid #e5e7eb; padding: .06in 0; }
+.tk-contact-row span { color: #64748b; text-transform: uppercase; letter-spacing: .08em; font-size: 7px; }
+.tk-contact-row b { color: #1c2c44; font-size: 9px; }
+
+.tk-qr-block { margin-top: .2in; display: flex; flex-direction: column; align-items: center; gap: .1in; }
+.tk-qr-placeholder { width: .85in; height: .85in; border: 2px dashed #d6b055; display: flex; align-items: center; justify-content: center; font-size: 7px; color: #94a3b8; text-align: center; }
+.tk-qr-block p { font-size: 7px; color: #64748b; letter-spacing: .06em; text-transform: uppercase; }
+
+.tk-flyer-compliance { margin-top: .18in; border-top: 1px solid #e5e7eb; padding-top: .12in; font-size: 6.5px; color: #94a3b8; line-height: 1.4; }
+
+/* Move-in special */
+.tk-flyer-special .tk-special-banner { background: #d6b055; color: #1c2c44; padding: .3in .35in; margin-top: .45in; }
+.tk-special-banner h1 { font-size: 30px; margin: .1in 0; color: #1c2c44; }
+.tk-special-banner p { font-size: 12px; color: #1c2c44; }
+.tk-unit-row { display: flex; justify-content: space-between; font-size: 10px; padding: .08in 0; border-bottom: 1px solid #e5e7eb; }
+.tk-small-note { font-size: 7px; color: #94a3b8; margin-top: .1in; line-height: 1.4; }
+
+/* Event flyer */
+.tk-event-header { margin-top: .5in; background: #1c2c44; color: white; padding: .35in .4in; }
+.tk-event-header h1 { font-size: 30px; color: white; margin: .12in 0; line-height: 1; }
+.tk-event-header h1 span { display: block; font-size: 18px; color: #d6b055; margin-top: .08in; }
+.tk-event-meta { display: flex; gap: .4in; margin-top: .2in; padding-top: .18in; border-top: 1px solid rgba(255,255,255,.25); }
+.tk-event-meta > div { display: flex; flex-direction: column; }
+.tk-event-meta strong { color: #d6b055; font-size: 14px; }
+.tk-event-meta span { font-size: 7px; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.65); margin-top: 2px; }
+.tk-event-body { display: grid; grid-template-columns: 1.2fr .8fr; gap: .35in; margin-top: .32in; }
+.tk-event-list { padding-left: .16in; font-size: 11px; line-height: 1.7; color: #2c4263; }
+
+/* ── Leasing Brochure ────────────────────────────────────── */
+.tk-brochure-cover { background: #1c2c44; color: white; padding: .62in; display: flex; flex-direction: column; }
+.tk-brochure-cover .print-header { border-color: rgba(255,255,255,.3); }
+.tk-brochure-cover .print-header b { color: rgba(255,255,255,.85); }
+.tk-brochure-hero { flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-end; padding-bottom: .2in; }
+.tk-brochure-hero h1 { font-size: 42px; color: white; margin: .15in 0; letter-spacing: -.04em; }
+.tk-brochure-hero p { font-size: 13px; color: rgba(255,255,255,.7); }
+.tk-brochure-hero .kicker { color: #d6b055; }
+.tk-brochure-tagline { margin-top: .35in; font-size: 12px; color: rgba(255,255,255,.55); border-top: 1px solid rgba(255,255,255,.2); padding-top: .2in; font-style: italic; }
+.tk-brochure-callouts { display: grid; grid-template-columns: repeat(3, 1fr); gap: .25in; margin-top: .4in; padding-top: .24in; border-top: 1px solid rgba(255,255,255,.2); }
+.tk-brochure-callouts > div { display: flex; flex-direction: column; }
+.tk-brochure-callouts strong { color: #d6b055; font-size: 20px; line-height: 1.15; }
+.tk-brochure-callouts span { font-size: 7px; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.55); margin-top: 5px; }
+.tk-brochure-contact-strip { display: flex; gap: .25in; margin-top: .4in; margin-bottom: .3in; font-size: 9px; color: rgba(255,255,255,.65); }
+.tk-brochure-contact-strip span::before { content: "· "; margin-right: .04in; color: #d6b055; }
+.tk-brochure-contact-strip span:first-child::before { content: ""; }
+
+.tk-overview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .28in .4in; margin-top: .5in; }
+.tk-overview-block { border-top: 3px solid #d6b055; padding-top: .2in; }
+.tk-overview-block h3 { margin: .1in 0; font-size: 16px; }
+.tk-overview-block p { font-size: 10px; color: #475569; line-height: 1.5; }
+
+.tk-comparison-table { width: 100%; border-collapse: collapse; margin-top: .4in; font-size: 10px; }
+.tk-comparison-table th { background: #1c2c44; color: white; text-align: left; padding: .1in .12in; font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
+.tk-comparison-table td { padding: .1in .12in; border-bottom: 1px solid #e5e7eb; color: #1c2c44; }
+.tk-comparison-table tr:nth-child(even) td { background: #f8fafc; }
+.tk-comparison-note { margin-top: .25in; font-size: 8px; color: #94a3b8; line-height: 1.5; }
+
+.tk-process-steps { display: flex; flex-direction: column; gap: .22in; margin-top: .5in; }
+.tk-process-step { display: grid; grid-template-columns: .55in 1fr; gap: .2in; align-items: start; padding-bottom: .2in; border-bottom: 1px solid #e5e7eb; }
+.tk-step-num { font-size: 11px; font-weight: 700; color: #d6b055; margin-top: .02in; }
+.tk-process-step h3 { font-size: 14px; margin: 0 0 .07in; }
+.tk-process-step p { font-size: 10px; color: #475569; line-height: 1.5; margin: 0; }
+
+/* ── Renewal ─────────────────────────────────────────────── */
+.tk-renewal-date { margin-bottom: .25in; font-size: 10px; color: #64748b; }
+.tk-renewal-address { margin-bottom: .2in; font-size: 11px; line-height: 1.6; }
+.tk-renewal-body { font-size: 11px; line-height: 1.7; color: #334155; }
+.tk-renewal-body p { margin: 0 0 .15in; }
+
+.tk-faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .22in .4in; margin-top: .5in; }
+.tk-faq-item { border-top: 2px solid #d6b055; padding-top: .15in; }
+.tk-faq-item h3 { font-size: 12px; margin: 0 0 .08in; }
+.tk-faq-item p { font-size: 10px; color: #475569; line-height: 1.5; margin: 0; }
+
+.tk-door-notice { margin-top: .5in; max-width: 5.5in; }
+.tk-door-badge { display: inline-block; background: #d6b055; color: #1c2c44; font-size: 8px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: .06in .14in; margin-bottom: .2in; }
+.tk-door-notice h1 { font-size: 30px; line-height: .97; margin: 0 0 .2in; }
+.tk-door-body { font-size: 12px; line-height: 1.6; color: #2c4263; margin-bottom: .25in; }
+
+.tk-retention-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: .45in; margin-top: .5in; align-items: start; }
+.tk-retention-highlight { background: #1c2c44; color: white; padding: .4in; }
+.tk-retention-highlight .kicker { color: #d6b055; }
+.tk-retention-rate { font-size: 38px; font-weight: 700; color: #d6b055; line-height: 1; margin: .2in 0 .12in; }
+.tk-retention-rate small { font-size: 14px; color: rgba(255,255,255,.6); font-weight: 400; }
+.tk-retention-highlight p { color: rgba(255,255,255,.7); font-size: 10px; margin: 0; }
+.tk-retention-details ul { font-size: 10px; color: #475569; line-height: 1.6; padding-left: .15in; margin: .1in 0 0; }
+.tk-retention-deadline { font-size: 20px; font-weight: 700; color: #1c2c44; border-left: 4px solid #d6b055; padding-left: .15in; margin-top: .1in; }
+
+/* ── Move-In Kit ─────────────────────────────────────────── */
+.tk-checklist { list-style: none; padding: 0; margin: .12in 0 0; font-size: 9.5px; line-height: 1.6; color: #334155; }
+.tk-checklist li { margin-bottom: .08in; display: flex; gap: .08in; }
+.tk-check { color: #d6b055; flex-shrink: 0; }
+
+.tk-contact-card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .25in; margin-top: .45in; }
+.tk-contact-card { border: 2px solid #d6b055; padding: .22in .25in; }
+.tk-contact-card strong { display: block; font-size: 12px; color: #1c2c44; margin: .08in 0 .05in; }
+.tk-contact-card span { display: block; font-size: 10px; color: #2c4263; margin-bottom: .05in; }
+.tk-contact-card small { display: block; font-size: 8px; color: #64748b; margin-top: .1in; line-height: 1.4; }
+
+/* ── Business Cards ──────────────────────────────────────── */
+.tk-card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .25in .3in; margin-top: .45in; }
+.tk-card-pair { display: flex; flex-direction: column; gap: .1in; }
+.tk-card-pair > .kicker { margin-bottom: .04in; }
+.tk-card-wrap { display: flex; flex-direction: column; gap: .06in; }
+
+.tk-biz-card {
+  width: 100%;
+  aspect-ratio: 3.5 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: .12in .14in;
+  box-sizing: border-box;
+}
+.tk-biz-card img { width: .38in; height: .38in; object-fit: contain; }
+.tk-biz-card strong { display: block; font-size: 8px; font-weight: 700; letter-spacing: .06em; }
+.tk-biz-card small { display: block; font-size: 7px; letter-spacing: .04em; }
+
+.tk-biz-dark { background: #1c2c44; color: white; }
+.tk-biz-dark strong { color: #d6b055; }
+.tk-biz-dark small { color: rgba(255,255,255,.6); }
+.tk-biz-light { background: white; color: #1c2c44; border: 1px solid #e5e7eb; }
+.tk-biz-light strong { color: #1c2c44; }
+.tk-biz-light small { color: #64748b; }
+
+.tk-biz-back { justify-content: center; }
+.tk-biz-back p { font-size: 9px; margin: 0 0 .04in; }
+.tk-biz-back strong { font-size: 10px; }
+.tk-biz-back small { font-size: 7px; margin-top: .06in; }
+.tk-biz-back-dark { background: #1c2c44; color: white; }
+.tk-biz-back-dark p { color: rgba(255,255,255,.6); }
+.tk-biz-back-dark strong { color: #d6b055; }
+.tk-biz-back-dark small { color: rgba(255,255,255,.5); }
+.tk-biz-back-light { background: #f8fafc; color: #1c2c44; border: 1px solid #e5e7eb; }
+.tk-biz-back-light p { color: #64748b; }
+.tk-biz-back-light strong { color: #1c2c44; }
+.tk-biz-back-light small { color: #94a3b8; }
+
+.tk-qr-card-layout { display: flex; justify-content: center; margin-top: .55in; }
+.tk-qr-card { width: 5in; border: 2px solid #1c2c44; overflow: hidden; }
+.tk-qr-card-logo { display: flex; align-items: center; gap: .15in; background: #1c2c44; padding: .18in .22in; }
+.tk-qr-card-logo img { width: .45in; height: .45in; object-fit: contain; }
+.tk-qr-card-logo strong { display: block; font-size: 9px; font-weight: 700; letter-spacing: .08em; color: white; }
+.tk-qr-card-logo small { display: block; font-size: 8px; color: #d6b055; margin-top: 2px; }
+.tk-qr-card-body { display: grid; grid-template-columns: 1fr auto; gap: .25in; padding: .22in .22in; align-items: center; }
+.tk-qr-card-contact > div { display: flex; justify-content: space-between; gap: .15in; font-size: 9px; padding: .05in 0; border-bottom: 1px solid #e5e7eb; }
+.tk-qr-card-contact span { font-size: 7px; color: #94a3b8; text-transform: uppercase; letter-spacing: .07em; }
+.tk-qr-card-contact b { color: #1c2c44; }
+.tk-qr-card-qr { display: flex; flex-direction: column; align-items: center; gap: .1in; }
+.tk-qr-large { width: 1.1in !important; height: 1.1in !important; }
+.tk-qr-card-qr p { font-size: 6.5px; color: #94a3b8; text-align: center; max-width: 1.2in; line-height: 1.3; }
+.tk-qr-card-footer { background: #f8fafc; padding: .1in .22in; font-size: 7px; color: #94a3b8; letter-spacing: .05em; border-top: 1px solid #e5e7eb; }
