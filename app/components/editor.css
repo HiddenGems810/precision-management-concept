@@ -18,6 +18,8 @@
     top: 0;
     left: 0;
     bottom: 0;
+    height: 100vh;
+    max-height: 100vh;
     z-index: 100;
     display: flex;
     flex-direction: column;
@@ -226,6 +228,8 @@
   .editor-sidebar {
     top: auto;
     bottom: 0;
+    height: 100vh;
+    max-height: 100vh;
     width: 100% !important;
     height: 50vh;
     border-right: none;
