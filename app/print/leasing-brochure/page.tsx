@@ -10,6 +10,7 @@ const logo = "/assets/exports/logo-system/precision-management-official-logo.svg
 const FIELDS: TemplateField[] = [
   { key: "PROPERTY_NAME",    label: "Property Name",      placeholder: "Stonegate Apartments",               group: "Property" },
   { key: "COVER_PHOTO",      label: "Cover Photo",        placeholder: "Upload photo...",               group: "Property", type: "image" },
+  { key: "LOGO_THEME",       label: "Logo Theme",         placeholder: "Light (for dark bg)",           group: "Property", type: "select", options: ["Light (for dark bg)", "Dark (for light bg)"] },
   { key: "PROPERTY_ADDRESS", label: "Property Address",   placeholder: "4500 Stone Gate Dr, Memphis, TN 38128", group: "Property" },
   { key: "AMENITIES",        label: "Key Amenities",      placeholder: "In-unit W/D, Central A/C, Covered Parking, Pool", group: "Property", type: "textarea" },
   // Pricing
@@ -29,12 +30,16 @@ const FIELDS: TemplateField[] = [
   { key: "OFFICE_HOURS",     label: "Office Hours",       placeholder: "Mon–Fri 9am–5pm, Sat 10am–2pm", group: "Contact" },
 ];
 
-function Header({ label }: { label: string }) {
+function Header({ label, logoTheme = "Light (for dark bg)" }: { label: string, logoTheme?: string }) {
+  const currentLogo = logoTheme === "Dark (for light bg)" 
+    ? "/assets/exports/logo-system/precision-management-official-logo.svg" 
+    : "/assets/exports/logo-system/pm-reversed.svg";
+
   return (
     <header className="print-header">
-      <img src={logo} alt="Precision Management" />
-      <span>PRECISION MANAGEMENT</span>
-      <b>{label}</b>
+      <img src={currentLogo} alt="Precision Management" />
+      <span style={{ color: logoTheme === "Dark (for light bg)" ? "inherit" : "inherit" }}>PRECISION MANAGEMENT</span>
+      <b style={{ color: logoTheme === "Dark (for light bg)" ? "inherit" : "inherit" }}>{label}</b>
     </header>
   );
 }
@@ -56,7 +61,7 @@ function BrochureCover() {
       {hasBg && <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(28, 44, 68, 0.95), rgba(28, 44, 68, 0.4))", zIndex: 0 }} />}
       
       <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", flexGrow: 1 }}>
-        <Header label="Leasing brochure / cover" />
+        <Header label="Leasing brochure / cover" logoTheme={f.LOGO_THEME} />
         <div className="tk-brochure-hero">
           <p className="kicker">Property overview</p>
           <h1>{f.PROPERTY_NAME}</h1>
