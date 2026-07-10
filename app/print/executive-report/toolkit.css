@@ -1,101 +1,98 @@
-.tk-exec-report {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000;
-  padding: 40px 50px;
+/* Toolkit CSS — Executive Report
+ * Requires: print.css base styles already loaded
+ */
+
+.tk-exec-cover {
+  background: #1c2c44;
+  color: white;
+  padding: .62in;
   display: flex;
   flex-direction: column;
 }
+.tk-exec-cover .print-header { border-color: rgba(255,255,255,.3); }
+.tk-exec-cover .print-header b { color: rgba(255,255,255,.85); }
+.tk-exec-cover .print-footer { color: rgba(255,255,255,.4); border-color: rgba(255,255,255,.3); }
 
-.tk-exec-logo-container {
+.tk-exec-hero {
+  flex-grow: 1;
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: .2in;
 }
-
-.tk-exec-logo {
-  height: 120px;
-  width: auto;
+.tk-exec-hero h1 {
+  font-size: 42px;
+  color: white;
+  margin: .15in 0;
+  letter-spacing: -.04em;
 }
-
-.tk-exec-title-block {
-  text-align: center;
-  margin-bottom: 30px;
+.tk-exec-hero p {
+  font-size: 13px;
+  color: rgba(255,255,255,.7);
+  white-space: pre-wrap;
 }
+.tk-exec-hero .kicker { color: #d6b055; }
 
-.tk-exec-title-block h1 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0 0 15px 0;
-  text-decoration: underline;
+.tk-exec-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .25in;
+  margin-top: .4in;
+  padding-top: .24in;
+  border-top: 1px solid rgba(255,255,255,.2);
 }
-
-.tk-exec-title-block h2 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0 0 15px 0;
-  text-decoration: underline;
-}
-
-.tk-exec-title-block h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0;
-  text-decoration: underline;
-}
-
-.tk-exec-cover-photo-container {
+.tk-exec-metrics > div {
   display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
+  flex-direction: column;
 }
-
-.tk-exec-cover-photo {
-  width: 100%;
-  max-width: 500px;
-  height: 300px;
-  object-fit: cover;
+.tk-exec-metrics strong {
+  color: #d6b055;
+  font-size: 20px;
+  line-height: 1.15;
 }
-
-.tk-exec-section {
-  margin-bottom: 30px;
-}
-
-.tk-exec-section-header {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: underline;
-  margin: 0 0 15px 0;
+.tk-exec-metrics span {
+  font-size: 7px;
+  letter-spacing: .08em;
   text-transform: uppercase;
+  color: rgba(255,255,255,.55);
+  margin-top: 5px;
 }
 
-.tk-exec-info-grid {
+.tk-exec-contact {
+  display: flex;
+  gap: .25in;
+  margin-top: .4in;
+  margin-bottom: .3in;
+  font-size: 9px;
+  color: rgba(255,255,255,.65);
+}
+.tk-exec-contact span::before {
+  content: "· ";
+  margin-right: .04in;
+  color: #d6b055;
+}
+.tk-exec-contact span:first-child::before {
+  content: "";
+}
+
+.tk-exec-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 15px;
-  font-size: 13px;
-  line-height: 1.6;
+  gap: .28in .4in;
+  margin-top: .5in;
 }
 
-.tk-exec-info-col p {
-  margin: 0 0 10px 0;
+.tk-exec-block {
+  border-top: 3px solid #d6b055;
+  padding-top: .2in;
 }
-
-.tk-exec-unit-mix {
-  font-size: 13px;
-  line-height: 1.6;
-  margin-top: 20px;
+.tk-exec-block h3 {
+  margin: .1in 0;
+  font-size: 16px;
 }
-
-.tk-exec-unit-mix-row {
-  display: grid;
-  grid-template-columns: 60px 1fr;
-  font-weight: bold;
-}
-
-.tk-exec-body-text {
-  font-size: 13px;
-  line-height: 1.8;
-  margin: 0 0 20px 0;
+.tk-exec-block p {
+  font-size: 10px;
+  color: #475569;
+  line-height: 1.5;
   white-space: pre-wrap;
 }
