@@ -194,13 +194,26 @@ export default function Home() {
                 </div>
                 <h3 className="mt-2 text-lg font-bold text-white">{cat.title}</h3>
               </div>
-              <div className="p-5">
-                <p className="mb-4 text-sm leading-relaxed text-slate-blue">{cat.description}</p>
-                <ul className="category-asset-list">
-                  {cat.assets.slice(0, 5).map((a) => <li key={a}>{a}</li>)}
-                  {cat.assets.length > 5 && <li className="text-managed-teal">+{cat.assets.length - 5} more</li>}
-                </ul>
-                <div className="mt-5 flex flex-wrap gap-3">
+              <div className="p-5 flex-1 flex flex-col">
+                <div className="space-y-4 mb-6 flex-1">
+                  <div>
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-managed-teal mb-1">Primary Use</p>
+                    <p className="text-xs text-slate-blue leading-relaxed">{cat.primaryUse}</p>
+                  </div>
+                  <div>
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-managed-teal mb-1">Editable Fields</p>
+                    <p className="text-xs text-slate-blue leading-relaxed">{cat.editableFields}</p>
+                  </div>
+                  <div>
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-managed-teal mb-1">Export Format</p>
+                    <p className="text-xs text-slate-blue leading-relaxed">{cat.exportFormat}</p>
+                  </div>
+                  <div>
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-managed-teal mb-1">Department / User</p>
+                    <p className="text-xs text-slate-blue leading-relaxed">{cat.departmentUser}</p>
+                  </div>
+                </div>
+                <div className="mt-auto pt-5 border-t border-concrete-gray flex flex-wrap gap-3">
                   {(cat.route || cat.downloadHref) && (
                     <PreviewButton url={cat.route || `${exportRoot}${cat.downloadHref}`} />
                   )}
@@ -509,6 +522,31 @@ export default function Home() {
       </div>
     </motion.section>
 
+    {/* ── Priority Properties Strategic ────────────────── */}
+    <motion.section initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8 }} className="mx-auto max-w-7xl px-5 py-28 md:px-8">
+      <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div>
+          <p className="eyebrow text-maintenance-gold">Priority properties</p>
+          <h2 className="section-title">Designed for Properties That Need Stronger Support.</h2>
+          <p className="mt-5 text-lg leading-relaxed text-slate-blue">Some properties do not need a full rebrand. They need clearer flyers, better move-in documents, cleaner renewal communication, stronger leasing assets, and a more consistent resident experience. This system gives property teams practical tools they can use quickly without rebuilding materials from scratch.</p>
+          <div className="mt-8 flex flex-wrap gap-4">
+            <span className="inline-flex items-center gap-2 rounded bg-concrete-gray px-3 py-1.5 text-xs font-bold uppercase tracking-widest text-precision-navy">High-friction move-ins</span>
+            <span className="inline-flex items-center gap-2 rounded bg-concrete-gray px-3 py-1.5 text-xs font-bold uppercase tracking-widest text-precision-navy">Inconsistent communication</span>
+            <span className="inline-flex items-center gap-2 rounded bg-concrete-gray px-3 py-1.5 text-xs font-bold uppercase tracking-widest text-precision-navy">Stronger leasing support</span>
+          </div>
+          <ConceptLabel />
+        </div>
+        <div className="bg-precision-navy p-10 shadow-2xl relative overflow-hidden">
+          <div className="absolute top-0 right-0 p-8 opacity-[0.03]">
+             <LogoMark />
+          </div>
+          <div className="relative z-10 border-l-2 border-maintenance-gold pl-6">
+            <p className="text-3xl font-bold text-white leading-tight">Empower teams to execute faster and safer.</p>
+            <p className="mt-6 text-sm text-white/70 leading-relaxed uppercase tracking-widest font-bold">Standardized Brand <span className="text-maintenance-gold mx-2">/</span> Legally Compliant <span className="text-maintenance-gold mx-2">/</span> Instant Deployment</p>
+          </div>
+        </div>
+      </div>
+    </motion.section>
 
     {/* ── Delivery Package ─────────────────────────────── */}
     <motion.section initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8 }} id="delivery" className="bg-precision-navy px-5 py-28 text-white md:px-8">
