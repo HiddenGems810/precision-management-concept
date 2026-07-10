@@ -1,0 +1,101 @@
+.tk-exec-report {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tk-exec-logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.tk-exec-logo {
+  height: 120px;
+  width: auto;
+}
+
+.tk-exec-title-block {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tk-exec-title-block h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  text-decoration: underline;
+}
+
+.tk-exec-title-block h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  text-decoration: underline;
+}
+
+.tk-exec-title-block h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.tk-exec-cover-photo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.tk-exec-cover-photo {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.tk-exec-section {
+  margin-bottom: 30px;
+}
+
+.tk-exec-section-header {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+}
+
+.tk-exec-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.tk-exec-info-col p {
+  margin: 0 0 10px 0;
+}
+
+.tk-exec-unit-mix {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.tk-exec-unit-mix-row {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  font-weight: bold;
+}
+
+.tk-exec-body-text {
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0 0 20px 0;
+  white-space: pre-wrap;
+}

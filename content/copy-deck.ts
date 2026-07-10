@@ -149,6 +149,18 @@ export const copyDeck = {
       route: "/print/staff-operations",
       downloadHref: null,
     },
+    {
+      id: "executive-report",
+      number: "09",
+      title: "Executive Report",
+      count: 1,
+      primaryUse: "Monthly executive summaries of property performance and metrics.",
+      editableFields: "Month, Year, Occupancy, Revenue, Delinquency, Renewals, Maintenance, Staffing.",
+      exportFormat: "PDF",
+      departmentUser: "Regional Manager / Executive Team",
+      route: "/print/executive-report",
+      downloadHref: null,
+    },
   ],
   deliveryPackage: [
     "Property Flyer Templates (5)",
@@ -158,6 +170,7 @@ export const copyDeck = {
     "Renewal Communication (4 templates)",
     "Resident Notices (6 templates)",
     "Business Card System (6 variants)",
-    "Staff & Operations (2 templates)",
+    "Staff & Operations Docs (2 templates)",
+    "Executive Report Template (3 pages)",
   ],
 };

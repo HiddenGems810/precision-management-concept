@@ -181,7 +181,7 @@ export default function Home() {
     <motion.section initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8 }} id="library" className="bg-concrete-gray/45 px-5 py-28 md:px-8">
       <div className="mx-auto max-w-7xl">
         <p className="eyebrow">Template production system</p>
-        <h2 className="section-title">8 template systems. One operational standard.</h2>
+        <h2 className="section-title">9 template systems. One operational standard.</h2>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-slate-blue">Every template is built with a live editor. Enter property data, preview the print-ready layout, and export to PDF instantly.</p>
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
