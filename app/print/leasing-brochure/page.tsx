@@ -33,7 +33,7 @@ const FIELDS: TemplateField[] = [
 function Header({ label, logoTheme = "Light (for dark bg)" }: { label: string, logoTheme?: string }) {
   const currentLogo = logoTheme === "Dark (for light bg)" 
     ? "/assets/exports/logo-system/precision-management-official-logo.svg" 
-    : "/assets/exports/logo-system/pm-reversed.svg";
+    : "/assets/exports/logo-system/reversed-logo.svg";
 
   return (
     <header className="print-header">
