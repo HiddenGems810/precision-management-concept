@@ -38,7 +38,7 @@ const FIELDS: TemplateField[] = [
 function Header({ label }: { label: string }) {
   return (
     <header className="print-header">
-      <img src={logo} alt="Precision Management" />
+      <img src={logo} alt="Precision Management" style={{ height: "48px", width: "auto", objectFit: "contain" }} />
       <span>PRECISION MANAGEMENT</span>
       <b>{label}</b>
     </header>
@@ -83,9 +83,9 @@ function FlyerPage({
         </div>
       </div>
 
-      {(f.GALLERY_IMAGE_1 || f.GALLERY_IMAGE_2 || f.GALLERY_IMAGE_3) && (
+      {[f.GALLERY_IMAGE_1, f.GALLERY_IMAGE_2, f.GALLERY_IMAGE_3].filter(img => img && img !== "Upload photo...").length > 0 && (
         <div style={{ display: 'flex', gap: '.15in', marginTop: '.25in' }}>
-          {[f.GALLERY_IMAGE_1, f.GALLERY_IMAGE_2, f.GALLERY_IMAGE_3].filter(Boolean).map((img, i) => (
+          {[f.GALLERY_IMAGE_1, f.GALLERY_IMAGE_2, f.GALLERY_IMAGE_3].filter(img => img && img !== "Upload photo...").map((img, i) => (
             <div key={i} style={{ flex: 1, height: '1.3in', position: 'relative', overflow: 'hidden' }}>
               {img?.startsWith("data:application/pdf") ? (
                 <PdfViewer dataUrl={img} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", zIndex: 0 }} />
@@ -143,9 +143,9 @@ function MoveInSpecialFlyer() {
         <p>{f.SPECIAL_OFFER}</p>
       </div>
 
-      {(f.GALLERY_IMAGE_1 || f.GALLERY_IMAGE_2 || f.GALLERY_IMAGE_3) && (
+      {[f.GALLERY_IMAGE_1, f.GALLERY_IMAGE_2, f.GALLERY_IMAGE_3].filter(img => img && img !== "Upload photo...").length > 0 && (
         <div style={{ display: 'flex', gap: '.15in', marginTop: '.25in' }}>
-          {[f.GALLERY_IMAGE_1, f.GALLERY_IMAGE_2, f.GALLERY_IMAGE_3].filter(Boolean).map((img, i) => (
+          {[f.GALLERY_IMAGE_1, f.GALLERY_IMAGE_2, f.GALLERY_IMAGE_3].filter(img => img && img !== "Upload photo...").map((img, i) => (
             <div key={i} style={{ flex: 1, height: '1.3in', position: 'relative', overflow: 'hidden' }}>
               {img?.startsWith("data:application/pdf") ? (
                 <PdfViewer dataUrl={img} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", zIndex: 0 }} />
@@ -200,9 +200,9 @@ function OpenHouseFlyer() {
         </div>
       </div>
 
-      {(f.GALLERY_IMAGE_1 || f.GALLERY_IMAGE_2 || f.GALLERY_IMAGE_3) && (
+      {[f.GALLERY_IMAGE_1, f.GALLERY_IMAGE_2, f.GALLERY_IMAGE_3].filter(img => img && img !== "Upload photo...").length > 0 && (
         <div style={{ display: 'flex', gap: '.15in', marginTop: '.25in' }}>
-          {[f.GALLERY_IMAGE_1, f.GALLERY_IMAGE_2, f.GALLERY_IMAGE_3].filter(Boolean).map((img, i) => (
+          {[f.GALLERY_IMAGE_1, f.GALLERY_IMAGE_2, f.GALLERY_IMAGE_3].filter(img => img && img !== "Upload photo...").map((img, i) => (
             <div key={i} style={{ flex: 1, height: '1.3in', position: 'relative', overflow: 'hidden' }}>
               {img?.startsWith("data:application/pdf") ? (
                 <PdfViewer dataUrl={img} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", zIndex: 0 }} />

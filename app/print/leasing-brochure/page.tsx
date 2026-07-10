@@ -33,11 +33,11 @@ const FIELDS: TemplateField[] = [
 function Header({ label, logoTheme = "Light (for dark bg)" }: { label: string, logoTheme?: string }) {
   const currentLogo = logoTheme === "Dark (for light bg)" 
     ? "/assets/exports/logo-system/precision-management-official-logo.svg" 
-    : "/assets/exports/logo-system/reversed-logo.svg";
+    : "/assets/exports/logo-system/precision-management-official-logo-reversed.svg";
 
   return (
     <header className="print-header">
-      <img src={currentLogo} alt="Precision Management" />
+      <img src={currentLogo} alt="Precision Management" style={{ height: "48px", width: "auto", objectFit: "contain" }} />
       <span style={{ color: logoTheme === "Dark (for light bg)" ? "inherit" : "inherit" }}>PRECISION MANAGEMENT</span>
       <b style={{ color: logoTheme === "Dark (for light bg)" ? "inherit" : "inherit" }}>{label}</b>
     </header>

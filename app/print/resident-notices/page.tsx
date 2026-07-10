@@ -23,7 +23,7 @@ const FIELDS: TemplateField[] = [
 function Header({ label }: { label: string }) {
   return (
     <header className="print-header">
-      <img src={logo} alt="Precision Management" />
+      <img src={logo} alt="Precision Management" style={{ height: "48px", width: "auto", objectFit: "contain" }} />
       <span>PRECISION MANAGEMENT</span>
       <b>{label}</b>
     </header>
