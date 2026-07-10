@@ -177,7 +177,7 @@ function Page3() {
 
 export default function ExecutiveReportTemplate() {
   return (
-    <TemplateEditor fields={FIELDS} title="Executive Report">
+    <TemplateEditor fields={FIELDS}>
       <div className="print-document">
         <Page1 />
         <Page2 />
