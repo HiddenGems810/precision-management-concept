@@ -198,7 +198,7 @@ function Page3() {
 export default function ExecutiveReportTemplate() {
   return (
     <TemplateEditor templateKey="executive-report" fields={FIELDS}>
-      <div className="print-document">
+      <div className="print-document" contentEditable suppressContentEditableWarning>
         <Page1 />
         <Page2 />
         <Page3 />
